@@ -1,0 +1,14 @@
+# MongoDB Docker Configuration (Optional)
+# Use this if you want to run MongoDB in a Docker container
+
+# To run MongoDB in Docker:
+# docker run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password mongo:latest
+
+# To stop MongoDB:
+# docker stop mongodb
+
+# To start MongoDB:
+# docker start mongodb
+
+# To remove MongoDB container:
+# docker rm mongodb
